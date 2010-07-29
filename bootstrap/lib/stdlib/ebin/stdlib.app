@@ -2,7 +2,7 @@
 %% 
 %% %CopyrightBegin%
 %%
-%% Copyright Ericsson AB 2008-2010. All Rights Reserved.
+%% Copyright Ericsson AB 1996-2010. All Rights Reserved.
 %%
 %% The contents of this file are subject to the Erlang Public License,
 %% Version 1.1, (the "License"); you may not use this file except in
@@ -19,7 +19,7 @@
 %%
 {application, stdlib,
  [{description, "ERTS  CXC 138 10"},
-  {vsn, "1.17"},
+  {vsn, "1.17.1"},
   {modules, [array,
 	     base64,
 	     beam_lib,
@@ -63,6 +63,7 @@
 	     gen_event,
 	     gen_fsm,
 	     gen_server,
+	     gen_stream,
 	     io,
 	     io_lib,
 	     io_lib_format,
